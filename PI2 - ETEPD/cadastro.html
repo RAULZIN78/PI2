@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+<body>
+    <main class="cadastro">
+        <div>
+            <p> 
+                <label for="email_cad">E-mail Institucional:</label> <br>
+                <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@etepd.com"/> 
+            </p>
+
+            <p> 
+                <label for="nome_cad">Nome Completo:</label> <br>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+            </p>
+
+            <p> 
+                <label for="datanasc_cad">Data de Nascimento:</label> <br>
+                <input id="datanasc_cad" name="datanasc_cad" required="required" type="date" placeholder="contato@htmlecsspro.com"/> 
+            </p>
+
+            <p> 
+                <label for="senha_cad">Senha:</label> <br>
+                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            </p>
+            
+            <p>
+                <label for="curso_cad">Curso: </label> <br>
+                <select name="curso_cad" id="curso_cad">
+                <option value=""> </option>
+                <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
+                <option value="Multimídia">Multimídia</option>    
+                </select>         
+            </p>
+
+            <p>
+                <label for="modulo_cad">Módulo: </label> <br>
+                <select name="curso_cad" id="curso_cad">
+                <option value=""> </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                </select>                          
+            </p>       
+
+            <p>
+                <label for="github">Github:</label> <br>
+                <input type="url" id="github" name="github">
+            </p>
+
+            <p>
+                <label for="linkedin">LinkedIn:</label> <br>
+                <input type="url" id="linkedin" name="linkedin">
+            </p>
+                                    
+            <p> 
+                <input type="submit" value="Cadastrar"/> 
+            </p>
+        </div>
+    </main>
+   
+</body>
+</html>

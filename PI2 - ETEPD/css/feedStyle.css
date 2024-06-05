@@ -1,0 +1,88 @@
+/* feedStyle.css */
+
+body {
+    background-color: #112b44;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+header {
+  background-color: #777777;
+  color: #fff;
+  padding: 20px;
+  transition: background-color 0.3s ease; /* Adicionando transição */
+}
+
+header:hover {
+  background-color: #555555; /* Nova cor de fundo ao passar o mouse */
+}
+
+header h1 {
+  margin: 0;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative; /* Para posicionar os botões relativos a este elemento */
+}
+
+.reply {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.reply p {
+    margin: 0;
+    font-style: italic;
+    color: #666;
+}
+
+/* Estilos para os botões de editar e excluir */
+.post .edit-btn,
+.post .delete-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    margin-right: 5px; /* Adiciona uma margem entre os botões */
+}
+
+#postar{
+
+    margin-bottom: 20px;
+}
+
+#feed{
+    color: black;
+}
+
+.icone-customizado {
+    width: 30px; /* largura desejada */
+    height: 30px; /* altura desejada */
+}
